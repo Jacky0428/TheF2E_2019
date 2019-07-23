@@ -1,3 +1,128 @@
 
+*{
+    font-family: Papyrus, Papyrus;
+}
 
 
+.mycontainer{
+    width: 1440px;
+    height: 1000px;
+    margin: 0px auto;
+    position: relative;
+    background: linear-gradient(to bottom right,#FFDEE8,#C3DBFF);
+}
+
+.mycontainer h1{
+    color: #4778BC;
+    font-size: 28px;
+}
+
+
+.mycontainer .background-font{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF88;
+    text-shadow: -1px 0 #FFFFFF88, 0 1px #FFFFFF88, 1px 0 #FFFFFF88, 0 -1px #FFFFFF88;
+    font-size: 38px;
+}
+
+.card{
+    width: 121px;
+    height: 166px;
+    border-radius: 11px;
+    border: 1px solid #f0c3c300;
+    background: #00000000;
+}
+
+img{
+    width: 137px;
+    height: 189px;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* .img{
+    width: 125px;
+    height: 169px;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.temp .card{
+    border: 1px solid #707070;
+    background-color: #ffffff00;
+}
+
+.target .card{
+    background-color: #ffffff55;
+}
+
+.play{
+    margin-bottom: 500px;
+}
+
+.play .col-sm .card img:nth-child(2){
+    margin-top: 40px;
+}
+
+.play .col-sm .card img:nth-child(3){
+    margin-top: 80px;
+}
+
+.play .col-sm .card img:nth-child(4){
+    margin-top: 120px;
+}
+
+.play .col-sm .card img:nth-child(5){
+    margin-top: 160px;
+}
+
+.play .col-sm .card img:nth-child(6){
+    margin-top: 200px;
+}
+
+.play .col-sm .card img:nth-child(7){
+    margin-top: 240px;
+}
+
+.play .col-sm .card img:nth-child(8){
+    margin-top: 280px;
+}
+
+.play .col-sm .card img:nth-child(9){
+    margin-top: 320px;
+}
+
+.play .col-sm .card img:nth-child(10){
+    margin-top: 360px;
+}
+
+.play .col-sm .card img:nth-child(11){
+    margin-top: 400px;
+}
+
+.play .col-sm .card img:nth-child(12){
+    margin-top: 440px;
+}
+
+.play .col-sm .card img:nth-child(13){
+    margin-top: 480px;
+}
+
+
+
+
+
+
+.footer span{
+    margin: 0px 10px;
+    color: #86B8FF;
+    text-shadow: -1px 0 #86B8FF, 0 1px #86B8FF, 1px 0 #86B8FF, 0 -1px #86B8FF;
+    cursor: pointer;
+}

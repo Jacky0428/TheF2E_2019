@@ -9,9 +9,96 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/all.js"></script>
 </head>
 <body>
-    <h1>Free Cell</h1>
-    <img src="svg/spade1.svg" alt="">
+    <div class="mycontainer py-3 px-5">
+        <p class="background-font">Free Cell</p>
+        <div class="row head">
+            <h1>Free Cell</h1>
+        </div>
+
+        <div class="row top mb-3">
+            <div class="col-6 temp">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card"></div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card"></div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card"></div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 target">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card"></div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card"></div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card"></div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row play">
+           
+                <div class="col-sm" id="line1">
+                    <div class="card">
+                        <!-- <div class="img" draggable="true" id="heart1">
+                            <img src="svg/heart1.svg">
+                        </div>
+                        <div class="img" draggable="true" id="heart2">
+                            <img src="svg/heart2.svg">
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-sm" id="line2">
+                    <div class="card">
+                        
+                    </div>
+                </div>
+                <div class="col-sm" id="line3">
+                    <div class="card"></div>
+                </div>
+                <div class="col-sm" id="line4">
+                    <div class="card"></div>
+                </div>
+                <div class="col-sm" id="line5">
+                    <div class="card"></div>
+                </div>
+                <div class="col-sm" id="line6">
+                    <div class="card"></div>
+                </div>
+                <div class="col-sm" id="line7">
+                    <div class="card"></div>
+                </div>
+                <div class="col-sm" id="line8">
+                    <div class="card"></div>
+                </div>
+           
+            <!-- <img src="svg/spade1.svg" alt=""> -->
+        </div>
+
+        <div class="row footer float-right">
+            <span>NEW</span>
+            <span>RESTART</span>
+            <span>UNDO</span>
+            <span>HINT</span>
+            <span>MORE</span>
+        </div>
+    </div>
 </body>
 </html>
