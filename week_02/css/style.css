@@ -1,15 +1,15 @@
 
-*{
-    font-family: Papyrus, Papyrus;
-}
-
-
 .mycontainer{
+    font-family: Papyrus, Papyrus;
     width: 1440px;
     height: 1000px;
     margin: 0px auto;
     position: relative;
     background: linear-gradient(to bottom right,#FFDEE8,#C3DBFF);
+}
+
+#myModal{
+    font-family: Microsoft JhengHei;
 }
 
 .mycontainer h1{
@@ -36,7 +36,7 @@
     background: #00000000;
 }
 
-img{
+img, .img{
     width: 137px;
     height: 189px;
     position: absolute;
@@ -45,14 +45,6 @@ img{
     transform: translate(-50%, -50%);
 }
 
-/* .img{
-    width: 125px;
-    height: 169px;
-    position: absolute;
-    top: 52%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
 
 .temp .card{
     border: 1px solid #707070;

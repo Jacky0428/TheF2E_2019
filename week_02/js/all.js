@@ -1,8 +1,11 @@
-console.log("ok")
+
 
 $(function(){
   initialDragAndDropEvent()
   initialGame()
+
+  $('#myModal').modal('show')
+
 })
 
 
